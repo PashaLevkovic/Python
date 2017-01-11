@@ -7,4 +7,5 @@ while i < 11:
     i += 1
 print sum
 
-# SyntaxError: invalid syntax
+# SyntaxError: invalid syntax  отсутствие двоеточия и бесконечный цикл
+

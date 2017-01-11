@@ -16,7 +16,7 @@ x = np.linspace(-4, 4, N)
 T = 0
 
 for i in range(len(x)):
-    if math.fabs(f(x[i]) - g(x[i])) < e:
+    if fabs(f(x[i]) - g(x[i])) < e:
         T = x[i]
 
 print T        
