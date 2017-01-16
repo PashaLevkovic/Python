@@ -14,7 +14,7 @@ def line(x):
             tg = True
     return result, tg
 interval = []
-interval = numpy.linspace(0,10,100)
+interval = linspace(0,10,100)
 
 result, tg = line(interval)
 print result
